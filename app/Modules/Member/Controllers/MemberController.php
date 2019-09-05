@@ -15,6 +15,7 @@ class MemberController extends Controller
      */
     public function index()
     {
+        dd("This is MemberController in Member Module");
         return view("Member::index");
     }
 
