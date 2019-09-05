@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Modules\Dashboard\Controllers;
+namespace App\Modules\Library\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class DashboardController extends Controller
+class BookController extends Controller
 {
 
     /**
@@ -15,8 +15,8 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        dd("This is DashboardController in the Dashboard Module");
-        return view("Dashboard::index");
+        dd("This is Book Controller");
+        return view("Library::index");
     }
 
     /**
